@@ -1,0 +1,70 @@
+<!---------------------------------------------------------->
+
+Dit is een stukje uit de code van mijn persoonlijke portfolio.
+Ik heb gebruikt gemaakt van Bootstraps zoals als u denk ik wel kan zien. Dit is alleen HTML
+
+<!---------------------------------------------------------->
+
+
+<html lang="en">
+<head>
+    <title>Jurre van den Berg | Home</title>
+    <!-- Required meta tags -->
+    @component('componentsNew.links')
+    @endcomponent
+
+</head>
+<body data-spy="scroll" data-target="#stickyD">
+<!---------------------------------------------------------->
+
+Van de nav bars heb ik een component gemaakt zodat ik hem vaker kan gebruiken en niet elke keer opnieuw moet schrijven.
+
+Helaas maakt hij het niet helemaal goed af, omdat dit een normaal html bestand is.
+
+U kunt ook op mijn website kijken voor de hele code, www.jurrevandenberg.nl
+
+<!---------------------------------------------------------->
+
+@component("componentsNew.socialnav")
+@endcomponent
+@component("componentsNew.nav")
+@endcomponent
+<div id="loading">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <h1><span>Welcome</span> to my site! First a disclaimer about my site</h1>
+                <p>This <strong>site</strong> is still in <strong>construction</strong>. Some <strong>things</strong> will not work <strong>properly</strong></p>
+                <a class="btn jb-button" href="/construction">More info?</a>
+            </div>
+        </div>
+    </div>
+</div>
+<header id="jb-header">
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <div class="jb-header-content">
+                    <img class="jb-header-img" src="/img/jb-logo.png">
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <div class="row justify-content-center jb-header-text">
+                    <div class="col-sm-4">
+                        <h1>Jurre van den Berg</h1>
+                        <hr>
+                        <h2>Application + mediadeveloper</h2>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-12 jb-header-icon">
+                <a href="#jb-experience"><i class="fas fa-angle-double-down"></i></a>
+            </div>
+        </div>
+    </div>
+</header>

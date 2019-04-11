@@ -1,0 +1,62 @@
+
+/* Dit is een stukje CSS van mijn portfolio. Dit stukje css hoort bij de html code van de Header*/
+/* Bij mijn nieuwe projecten maak ik gebruik van SASS, maar dat ben ik nog aan het leren.
+
+/*Begin header section*/
+
+#jb-header {
+    min-height: 100vh;
+    /*background-image: url("../img/jb-header-image.jpeg");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: top center;*/
+    height: 100%;
+    background-color: #343A40;
+}
+
+.jb-header-content {
+    margin-top: 18%;
+}
+
+.jb-header-img {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.jb-header-text h1 {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.jb-header-text h2 {
+    color: #b2b2b2;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.jb-header-text hr {
+    background-color: #45CACD;
+}
+
+.jb-side-nav {
+    margin-top: -120px;
+}
+.jb-side-nav a {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.jb-header-icon a {
+    color: #45CACD;
+}
+
+.jb-header-icon {
+    margin-top: 250px;
+}
+
+.jb-header-icon a {
+    font-size: 2rem;
+}
+
+/*End header section*/
